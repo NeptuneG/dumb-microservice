@@ -10,7 +10,9 @@
 
     <modules>
         <module>microservice-discovery-eureka</module>
+        <module>microservice-ribbon</module>
         <module>microservice-sample-service</module>
+        <module>microservice-hystrix-dashboard</module>
     </modules>
 
     <parent>
