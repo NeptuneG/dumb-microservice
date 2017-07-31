@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: microservice-config-client
+  cloud:
+    config:
+      profile: development
+      label: master
+      discovery:
+        enabled: true
+        serviceId: microservice-config-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://discovery:8761/eureka/

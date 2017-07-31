@@ -13,6 +13,8 @@
         <module>microservice-ribbon</module>
         <module>microservice-sample-service</module>
         <module>microservice-hystrix-dashboard</module>
+        <module>microservice-config-server</module>
+        <module>microservice-config-client</module>
     </modules>
 
     <parent>
