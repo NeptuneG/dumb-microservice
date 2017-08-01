@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: microservice-zuul
+server:
+  port: 8050
+eureka:
+  instance:
+    hostname: gateway
+  client:
+    service-url:
+      defaultZone: http://discovery:8761/eureka/
